@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - logicalFilePath: 20260123-2-alter-tbl-brand.yaml
+  - changeSet:
+      id: 20260123-2-alter-tbl-brand.yaml
+      author: javidanhatamov
+      changes:
+         - addColumn:
+             tableName: brand
+             columns:
+               - column:
+                   name: brand_code
+                   type: varchar(255)

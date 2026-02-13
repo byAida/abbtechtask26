@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - includeAll:
+      path: db/changelog/tbl-brand
+  - includeAll:
+      path: db/changelog/tbl-model
+  - includeAll:
+      path: db/changelog/tbl-security
